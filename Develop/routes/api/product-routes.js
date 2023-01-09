@@ -13,8 +13,7 @@ router.get("/", async (req, res) => {
 
 // get one product
 router.get("/:id", async (req, res) => {
-  // find a single product by its `id`
-  // be sure to include its associated Category and Tag data
+  // find a single product by its `id`. It will include its associated Category and Tag data
   var id = req.params.id;
 
   let product = await Product.findByPk(id, { include: [Category, Tag] });
@@ -23,7 +22,7 @@ router.get("/:id", async (req, res) => {
 
 // create new product
 router.post("/", (req, res) => {
-  /* req.body should look like this...
+  /* req.body for testing
     {
       product_name: "Basketball",
       price: 200.00,
