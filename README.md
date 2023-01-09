@@ -39,7 +39,7 @@ Installations needed to use the App
 # Screenshot:
 ----------------------------------------------------------------------
 
- ![App Test on Insomnia]()
+ ![App Test on Insomnia](Assets/Images/ScreenShotSample1.PNG)
 
 # Usage:
 ----------------------------------------------------------------------
