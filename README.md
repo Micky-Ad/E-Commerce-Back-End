@@ -4,7 +4,7 @@ App created for E-commerce back end which utilizes Express.js and MySQL for data
 # Features for the App 
 -----------------------------------------------------------------------  
 - The app uses a functional Express.js API.
--	MySQL is used for the database name, MySQL username, and MySQL password to an environment variable file.
+-	MySQL is used for the database. Username and password are saved in an environment variable file.
 - Connects to a database using Sequelize.
 - Uses schema and seed commands a development database is created and is seeded with test data.
 -	Users can enter npm start or nodemon at command line to invoke the application. 
@@ -18,7 +18,18 @@ App created for E-commerce back end which utilizes Express.js and MySQL for data
  - Express.js
 - MySQL
 
+## Installation
+-----------------------------------------------------------------------
 
+Installations needed to use the App 
+
+```bash
+  - npm install 
+  - npm install express
+  - npm install mysql2
+  - npm install sequelize
+  - npm install dotenv
+```
 # Links
 -----------------------------------------------------------------------
 ### [Demonstration Video]()
